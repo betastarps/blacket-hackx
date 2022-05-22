@@ -1,20 +1,18 @@
-let i = 1;
-let boxes = []
+var i = 0;
+var boxes = []
 Object.keys(cratesList).forEach(e => {
     boxes.push(e)
 })
-boxes2 = boxes.join("\n")
-let name = prompt("Which crate would you like to open?\n\nOptions:\n" + boxes2);
+var name = prompt("Which crate would you like to open?\n\nOptions:\n" + boxes.join('\n'));
 if (!boxes.includes(name)) {
-    alert('That crate doesn't exist...')
-    name = prompt("Which crate would you like to open?\n\nOptions:\n" + boxes2);
+    alert('That crate doesn\'t exist...')
+    name = prompt("Which crate would you like to open?\n\nOptions:\n" + boxes.join('\n'));
 }
-let amt = Number(prompt("How many crates would you like to open?"));
+var amt = Number(prompt("How many crates would you like to open?"));
 
 function buyBox() {
-    var postData = 'crate=' + name;
-    $.post('/api/open/', postData, function(data) {
-        if (data === "You're being rate limited.") i--
+    $.post('/api/open/', `crate=${name}`, function(data) {
+        if (data === "You're being rate limited.") i--;
         else console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px black;', `${data}`);
     });
 }
@@ -26,4 +24,4 @@ var check = setInterval(() => {
         clearInterval(check);
         alert("Done buying boxes! Check the console or the Elements page.");
     }
-}, 1001);
+}, 751);
