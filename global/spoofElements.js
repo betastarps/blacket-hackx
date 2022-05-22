@@ -5,5 +5,6 @@ Object.entries(elementList).forEach((entry) => {
 })
 for (i=0;i<Object.keys(elementList).length;i++) {
     elemes = Object.keys(elementList)
-    userElements[elemes[i]] = Math.floor(elementList[elemes[i]]['chance'] / 2 + Math.round(Math.random() * 20));
+    if (elemes[i] === 'nigger') userElements[elemes[i]] = Math.floor(Math.random() * 4);
+    else userElements[elemes[i]] = Math.floor(elementList[elemes[i]]['chance'] / 2 + Math.round(Math.random() * 20));
 }
