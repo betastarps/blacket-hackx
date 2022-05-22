@@ -6,7 +6,7 @@ Object.keys(cratesList).forEach(e => {
 boxes2 = boxes.join("\n")
 let name = prompt("Which crate would you like to open?\n\nOptions:\n" + boxes2);
 if (!boxes.includes(name)) {
-    alert('That crate doestn exist..')
+    alert('That crate doesn't exist...')
     name = prompt("Which crate would you like to open?\n\nOptions:\n" + boxes2);
 }
 let amt = Number(prompt("How many crates would you like to open?"));
