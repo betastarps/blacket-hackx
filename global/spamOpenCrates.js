@@ -1,5 +1,16 @@
 var i = 0;
 var boxes = []
+colors = {
+    divine: '#ee82ee',
+    mythical: '#a335ee',
+    perfect: '#fffacd',
+    fabled: '#0c7500',
+    legendary: '#ff910f',
+    epic: '#be0000',
+    rare: '#0a14fa',
+    uncommon: '#4bc22e',
+    common: '#ffffff'
+}
 Object.keys(cratesList).forEach(e => {
     boxes.push(e)
 })
@@ -11,13 +22,16 @@ if (!boxes.includes(name)) {
 var amt = Number(prompt("How many crates would you like to open?"));
 
 function buyBox() {
-    $.post('/api/open/', `crate=${name}`, function(data) {
-        if (data === "You're being rate limited.") i--;
-        else console.log('%c%s', 'color: white; font-size: 25px; text-shadow: 0px 0px 15px black;', `${data}`);
+    $.post('/api/open/', `crate=non`, function(data) {
+        if (data === "You're being rate limited.") i--
+        else {
+            rarity = elementList[data]['rarity'].toLowerCase()
+            console.log('%c%s', `color: ${colors[rarity]}; font-size: 25px; text-shadow: 0px 0px 15px ${colors[rarity]};`, `${data}`);
+        }
     });
 }
 var check = setInterval(() => {
-    if (i <= amt) {
+    if (i < amt) {
         buyBox();
         i++;
     } else {
