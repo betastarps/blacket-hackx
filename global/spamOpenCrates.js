@@ -30,10 +30,9 @@ function buyBox() {
                 console.log('%c%s', `color: ${colors[rarity]}; font-size: 25px; text-shadow: 0px 0px 15px ${colors[rarity]};`, `${data}`);
             }
         } catch (e) {
-            console.log('%c%s', `color: black; font-size: 25px; text-shadow: 0px 0px 15px black;`, `You dont have enought atoms!`);
-            alert('You dont have enought atoms!')
+            console.log('%c%s', `color: black; font-size: 25px; text-shadow: 0px 0px 15px black;`, `You dont have enought atoms, stoped buying.`);
+            alert('You dont have enought atoms, stoped buying.')
             i = amt
-            clearInterval(check);
         }
     });
 }
