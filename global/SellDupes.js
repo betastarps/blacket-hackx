@@ -1,8 +1,6 @@
 $.get('/api/user/elements', function(data) {
     userElements = JSON.parse(data)
-    Object.keys(elementList).forEach(element => {
-        sell(element)
-    })
+    Object.keys(elementList).forEach(element => sell(element))
 })
 async function sell(element) {
     var amt = userElements[element] - 0
