@@ -23,10 +23,17 @@ var amt = Number(prompt("How many crates would you like to open?"));
 
 function buyBox() {
     $.post('/api/open/', `crate=${name}`, function(data) {
-        if (data === "You're being rate limited.") i--
-        else {
-            rarity = elementList[data]['rarity'].toLowerCase()
-            console.log('%c%s', `color: ${colors[rarity]}; font-size: 25px; text-shadow: 0px 0px 15px ${colors[rarity]};`, `${data}`);
+        try {
+            if (data === "You're being rate limited.") i--
+            else {
+                rarity = elementList[data]['rarity'].toLowerCase()
+                console.log('%c%s', `color: ${colors[rarity]}; font-size: 25px; text-shadow: 0px 0px 15px ${colors[rarity]};`, `${data}`);
+            }
+        } catch (e) {
+            console.log('%c%s', `color: black; font-size: 25px; text-shadow: 0px 0px 15px black;`, `You dont have enought atoms!`);
+            alert('You dont have enought atoms!')
+            i = amt
+            clearInterval(check);
         }
     });
 }
