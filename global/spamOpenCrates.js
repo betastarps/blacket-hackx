@@ -19,8 +19,8 @@ if (!boxes.includes(name)) {
     alert('That crate doesn\'t exist...')
     name = prompt("Which crate would you like to open?\n\nOptions:\n" + boxes.join('\n'));
 }
-var amt = Number(prompt("How many crates would you like to open?"));
-
+var amt = Number(prompt("How many crates would you like to open?\ntype \"*\" to unlock all you can with your current atoms."));
+if (isNaN(amt)) amt = 99999999999999
 function buyBox() {
     $.post('/api/open/', `crate=${name}`, function(data) {
         try {
@@ -30,8 +30,6 @@ function buyBox() {
                 console.log('%c%s', `color: ${colors[rarity]}; font-size: 25px; text-shadow: 0px 0px 15px ${colors[rarity]};`, `${data}`);
             }
         } catch (e) {
-            console.log('%c%s', `color: black; font-size: 25px; text-shadow: 0px 0px 15px black;`, `You dont have enought atoms, stoped buying.`);
-            alert('You dont have enought atoms, stoped buying.')
             i = amt
         }
     });
