@@ -3,7 +3,8 @@ async function sell(element) {
 	if (0 >= amt) return;
 	var postData = `element=${element}&quantity=${amt}`;
 	$.post(`/api/sell/`, postData, function() {
-		console.log(`Sold ${amt} ${element}(s)`)
+        if (isNaN(amt)) return;
+	else console.log(`Sold ${amt} ${element}(s)`);
 	})
 }
 
