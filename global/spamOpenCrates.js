@@ -22,7 +22,7 @@ if (!boxes.includes(name)) {
 var amt = Number(prompt("How many crates would you like to open?"));
 
 function buyBox() {
-    $.post('/api/open/', `crate=non`, function(data) {
+    $.post('/api/open/', `crate=${name}`, function(data) {
         if (data === "You're being rate limited.") i--
         else {
             rarity = elementList[data]['rarity'].toLowerCase()
