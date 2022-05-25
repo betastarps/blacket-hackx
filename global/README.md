@@ -8,4 +8,3 @@
 ### Spam open crates extremely quickly!
 # sellDupes.js [BETA]
 ### Sells all duplicate blooks!
-your mother
