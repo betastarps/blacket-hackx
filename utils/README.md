@@ -1,2 +1,2 @@
 # ChangeUsername.js [BETA]
-### Changes your username via javascript
+### Changes your username via javascript!
