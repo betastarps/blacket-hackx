@@ -1,5 +1,5 @@
 # betastar-hacks
-Hello everyone! I forked zastix's betastar hacks just to fix all the typos, if you see this zastix you should take some notes 😂 (Not being mean btw)
+Hello everyone! I forked zastix's betastar hacks just to fix all the typos, if you see this zastix you should take some notes :D
 
 Hacks for Betastar, proudly coded by [zastix](https://github.com/notzastix)<br>
 Also proudly 100% open-source<br>
