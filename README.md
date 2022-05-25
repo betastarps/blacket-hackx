@@ -6,7 +6,6 @@ Also proudly 100% open-source<br>
 Join zastix's discord [here!](https://discord.gg/xxBtqPHSjW)
 #### Remember to open an [issue here](https://github.com/notzastix/blacket-hacks/issues/new) if something doesnt work! :D
 # Announcements
-- Scripts with "[BETA]" in their name are for the new Betastar.
 - Betastar is now currently released! :D (Unless Ben Stewage takes it down again for some reason)
 # Betastar socials:
 [The site of course](https://betastar.org)<br>
