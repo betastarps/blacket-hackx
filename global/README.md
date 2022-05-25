@@ -5,6 +5,6 @@
 # spoofElements.js [BETA]
 ### Gives you all the elements, until you refresh the site!
 # spamOpenCrates.js [BETA]
-### Spam opens crates extremely quickly!
+### Spam open crates extremely quickly!
 # sellDupes.js [BETA]
 ### Sells all duplicate blooks!
