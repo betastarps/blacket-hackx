@@ -14,4 +14,5 @@ Join zastix's discord [here!](https://discord.gg/xxBtqPHSjW)
 # How to use
 1. Open the console using (CTRL + SHIFT + J)<br>
 2. Paste them in using (CTRL + V)<br>
-3. Press enter and the scripts should work! :D
+3. Press enter
+4. If you did all the steps correctly, then just follow any instructions that the hack your using says! :D
