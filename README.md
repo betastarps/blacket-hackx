@@ -11,6 +11,6 @@ Join zastix's discord [here!](https://discord.gg/xxBtqPHSjW)
 [zastix's github](https://github.com/notzastix)
 # How to use
 1. Open the console using (CTRL + SHIFT + J)<br>
-2. Paste them in using (CTRL + V)<br>
-3. Press enter
-4. If you did all the steps correctly, then just follow any instructions that the hack your using says! :D
+2. Paste the hack your using by doing the command (CTRL + V)<br>
+3. Press enter!
+4. If you did all of the steps correctly, then just follow any instructions that the hack your using says! :D
