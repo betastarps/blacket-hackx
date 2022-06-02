@@ -1,12 +1,10 @@
-# autoDeclineTrade.js [BETA]
-### Automatcily decline trade requests (reload to stop)
-# ApearOffline.js [BETA]
-### Appear offline always, even when online.
-# spoofElements.js [BETA]
-### Give you all the elements, with a random amount of each.
-# getAtoms.js [BETA]
-### Get atoms automaticly, just like getTokens.js!
-# spamOpenCrates.js [BETA]
-### Opens crates extremly quickly.
-# sellDupes.js [BETA]
-### sells all duplicate blooks
+# autoDeclineTrade.js
+### Automatically declines trade requests (Reload to stop!)
+# AppearOffline.js
+### You appear offline always, even when online! (Again, reload to stop!)
+# spoofElements.js
+### Gives you all the elements, until you refresh the site!
+# spamOpenCrates.js
+### Spam open crates extremely quickly!
+# sellDupes.js
+### Sells all duplicate blooks!
