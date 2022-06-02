@@ -5,7 +5,7 @@ Join zastix's discord [here!](https://discord.gg/xxBtqPHSjW)
 #### Remember to open an [issue here](https://github.com/notzastix/blacket-hacks/issues/new) if something doesnt work! :D
 # Announcements
 - Betastar is now currently released! (Unless Bean Stewage takes it down again for some reason)
-- I'm currently moving so I'm not on asuch, I'm sorry if anything becomes outdated while I'm gone.
+- I'm currently moving so I'm not on as much, I'm sorry if anything becomes outdated while I'm gone.
 # Betastar socials:
 [The site of course](https://betastar.org)<br>
 [Betastar's discord](https://discord.gg/XrVMbR5tJd)<br>
