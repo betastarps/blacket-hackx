@@ -1,7 +1,7 @@
 # betastar-hacks
 Hacks for Betastar, coded by [zastix](https://github.com/notzastix)<br>
-Also proudly 100% open-source<br>
-Join zastix's discord [here!](https://discord.gg/xxBtqPHSjW)
+proudly 100% open-source<br>
+Join my discord [here!](https://discord.gg/xxBtqPHSjW)
 #### Remember to open an [issue here](https://github.com/notzastix/blacket-hacks/issues/new) if something doesnt work! :D
 # Announcements
 - Betastar is now currently released! (Unless Bean Stewage takes it down again for some reason)
