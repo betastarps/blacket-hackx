@@ -10,8 +10,9 @@ Join zastix's discord [here!](https://discord.gg/xxBtqPHSjW)
 [The site of course](https://betastar.org)<br>
 [Betastar's discord](https://discord.gg/XrVMbR5tJd)<br>
 [Xotic's github](X0TlC)
-# How to use
-1. Open the console using (CTRL + SHIFT + J)<br>
-2. Paste the hack your using by doing the command (CTRL + V)<br>
-3. Press enter!
-4. If you did all of the steps correctly, then just follow any instructions that the hack your using says! :D
+# How To Use
+1. Copy the script to your clipboard.<br>
+2. Open the console in Betastar (CTRL + SHIFT + J or COMMAND + SHIFT + J).<br>
+3. Paste the script in (CTRL + V).<br>
+4. Press enter.<br>
+5. Follow
