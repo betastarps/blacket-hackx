@@ -1,5 +1,3 @@
-# autoDeclineTrade.js
-### Automatically declines trade requests (Reload to stop!)
 # AppearOffline.js
 ### You appear offline always, even when online! (Again, reload to stop!)
 # spoofElements.js
