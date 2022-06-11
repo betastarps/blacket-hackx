@@ -1,6 +1,6 @@
 /* coded 99% by tremblero */
 try {
-    let element = prompt('What element are you trying to get?').toLowerCase()
+    let element = prompt('What element are you trying to get?')
     let amt = prompt('How many crates are you opening?')
     let amount = prompt('How many are you aiming for?')
     let chance = elementList[element]['chance']
