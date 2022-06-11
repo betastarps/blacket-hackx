@@ -1,6 +1,6 @@
 $.get('/api/user/', function(data) {
     window.user = data.name;
-}
+})
 function changeUsername() {
     var newUsername = prompt("Enter your new username.");
     var pass = btoa(prompt("Enter your current password"));
