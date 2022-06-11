@@ -42,4 +42,4 @@ var check = setInterval(() => {
         clearInterval(check);
         alert("Done buying boxes! Check the console or the Elements page.");
     }
-}, 751);
+}, 500);
