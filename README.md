@@ -1,6 +1,6 @@
 # betastar-hacks
 Hacks for Betastar, coded by [zastix](https://github.com/notzastix)<br>
-proudly 100% open-source<br> <-- this may change -->
+proudly 100% open-source<br> <!-- this might change -->
 Join my discord [here!](https://discord.gg/xxBtqPHSjW)
 #### Remember to open an [issue](https://github.com/notzastix/blacket-hacks/issues/new) if something doesnt work!
 # Announcements
