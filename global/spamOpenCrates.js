@@ -11,20 +11,19 @@ colors = {
     uncommon: '#4bc22e',
     common: '#ffffff'
 }
-Object.keys(cratesList).forEach(e => {
-    boxes.push(e)
-})
-var name = prompt("Which crate would you like to open?\n\nOptions:\n" + boxes.join('\n'));
-if (!boxes.includes(name)) {
+
+var name = prompt("Which crate would you like to open?\n\nOptions:\n" + Object.keys(cratesList).join('\n'));
+if (!Object.keys(cratesList).includes(name)) {
     alert('That crate doesn\'t exist...')
-    name = prompt("Which crate would you like to open?\n\nOptions:\n" + boxes.join('\n'));
+    name = prompt("Which crate would you like to open?\n\nOptions:\n" + Object.keys(cratesList).join('\n'));
 }
 var amt = Number(prompt("How many crates would you like to open?\ntype \"*\" to unlock all you can with your current atoms."));
 if (isNaN(amt)) amt = Number.MAX_VALUE
+
 function buyBox() {
     $.post('/api/open/', `crate=${name}`, function(data) {
         try {
-            if (data === "You're being rate limited.") i--
+            if (data.includes("rate")) i--
             else {
                 rarity = elementList[data]['rarity'].toLowerCase()
                 console.log('%c%s', `color: ${colors[rarity]}; font-size: 25px; text-shadow: 0px 0px 15px ${colors[rarity]};`, `${data}`);
