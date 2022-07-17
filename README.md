@@ -1,15 +1,15 @@
-# Betastar Hacks
-Hacks for Betastar, coded by [zastix](https://github.com/notzastix)<br>
+# betastar hacks
+Hacks for betastar, coded by [zastix](https://github.com/notzastix)<br>
 proudly 100% open-source<br> <!-- this might change -->
 Join my discord [here!](https://discord.gg/xxBtqPHSjW)
 #### Remember to open an [issue](https://github.com/notzastix/blacket-hacks/issues/new) if something doesnt work!
-# Announcements
+## Announcements
 - kinda unmaintained
-# Betastar socials:
+## socials:
 [Site](https://betastar.org)<br>
 [Discord](https://discord.gg/FyMnjuyK88)<br>
 [Github](https://github.com/XOTlC)
-# How To Use
+## How To Use
 1. Copy the script to your clipboard.<br>
 2. Open the console in Betastar (CTRL + SHIFT + J or COMMAND + SHIFT + J).<br>
 3. Paste the script in (CTRL + V).<br>
