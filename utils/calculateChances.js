@@ -10,5 +10,5 @@ try {
     alert('You have a ' + calculation + '% chance to get atleast one ' + element + '. (Press OK to continue)')
     alert('You have a ' + (calculation / amount) + '% chance to get ' + amount + ' ' + element + '.')
 } catch (e) {
-    alert('An error has occured')
+    alert('An error has occurred')
 }
