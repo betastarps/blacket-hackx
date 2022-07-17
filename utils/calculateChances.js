@@ -8,10 +8,7 @@ try {
 
     let calculation = chance * amt
     alert('You have a ' + calculation + '% chance to get atleast one ' + element + '. (Press OK to continue)')
-    console.log('You have a ' + calculation + '% chance to get atleast one ' + element + '.')
     alert('You have a ' + (calculation / amount) + '% chance to get ' + amount + ' ' + element + '.')
-    console.log('You have a ' + (calculation / amount) + '% chance to get ' + amount + ' ' + element + '.')
 } catch (e) {
-    console.log('An erorr has occured')
     alert('An error has occured')
 }

@@ -1,8 +1,9 @@
-# AppearOffline.js
-### You appear offline always, even when online! (Again, reload to stop!)
-# spoofElements.js
-### Gives you all the elements, until you refresh the site!
-# spamOpenCrates.js
-### Spam open crates extremely quickly!
-# sellDupes.js
-### Sells all duplicate blooks!
+# Global
+## sellDupes.js
+### Sells all duplicate elements you have.
+## spamOpenCrates.js
+### Open crates extremely quickly.
+## spoofElements.js
+### Gives you all the elements, until you refresh the site.
+
+
