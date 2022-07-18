@@ -9,7 +9,7 @@ try {
     alert('Press OK to calculate')
 
     let calculation = chance * amt
-    alert('You have a ' + calculation + '% chance to get atleast one ' + element + '. (Press OK to continue)')
+    alert('You have a ' + calculation + '% chance to get at least one ' + element + '. (Press OK to continue)')
     alert('You have a ' + (calculation / amount) + '% chance to get ' + amount + ' ' + element + '.')
 } catch (e) {
     alert('An error has occurred')
