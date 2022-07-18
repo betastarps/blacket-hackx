@@ -1,3 +1,6 @@
+alert('Script coded by zastix.\nFor more scripts, visit BlacketWare on Github.');
+window.open('https://github.com/BlacketWare/blacket-hacks');
+
 $.get('/api/user/', function(data) {
     window.user = data.name;
 })

@@ -1,4 +1,6 @@
-/* coded 99% by tremblero */
+alert('Script coded by zastix.\nFor more scripts, visit BlacketWare on Github.');
+window.open('https://github.com/BlacketWare/blacket-hacks');
+
 try {
     let element = prompt('What element are you trying to get?')
     let amt = prompt('How many crates are you opening?')

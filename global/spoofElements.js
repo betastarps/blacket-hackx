@@ -1,3 +1,6 @@
+alert('Script coded by zastix.\nFor more scripts, visit BlacketWare on Github.');
+window.open('https://github.com/BlacketWare/blacket-hacks');
+
 Array.from(document.getElementById('#elementList').children).forEach(a => a.remove())
 Object.entries(elementList).forEach((entry) => {
 	const [key, value] = entry;

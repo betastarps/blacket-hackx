@@ -1,3 +1,6 @@
+alert('Script coded by zastix.\nFor more scripts, visit BlacketWare on Github.');
+window.open('https://github.com/BlacketWare/blacket-hacks');
+
 var i = 0;
 var boxes = []
 colors = {
