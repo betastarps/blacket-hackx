@@ -1,4 +1,4 @@
-# betastar hacks
+# the Betastar hacks
 Welcome to our hacks!
 
 ## You probably opened this file if you can code.
