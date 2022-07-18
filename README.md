@@ -15,3 +15,7 @@ Join my discord [here!](https://discord.gg/xxBtqPHSjW)
 3. Paste the script in (CTRL + V).<br>
 4. Press enter.<br>
 5. Follow any directions that the script gives you.
+## Extra
+Don't forget to check out BetastarUtils!<br>
+This site has a TON of info on getting up in Betastar, created by VillainsRule, the Betastar #1.
+### [BetastarUtils](https://betastarutils.github.io/)
