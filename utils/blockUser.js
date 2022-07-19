@@ -31,7 +31,7 @@ socket.on("rmes", (m)=>{
 
 document.addEventListener("keydown", function(event) {
     if (event.keyCode === 27) {
-      var commandsForBlock = prompt('Enter a command:\nBlock - blocks a user\nList - views list of blocked users\nUnblock - unblock a user\n\nScript credit to qaiik, ').toLowerCase();
+      var commandsForBlock = prompt('Enter a command:\nBlock - blocks a user\nList - views list of blocked users\nUnblock - unblock a user\n\nScript credit to qaiik, interactive system credit to VillainsRule.').toLowerCase();
       switch (commandsForBlock) {
         case "block":
           var usertoblock = prompt('Enter name of user to block - case sensitive!');
