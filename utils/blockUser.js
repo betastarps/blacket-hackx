@@ -1,3 +1,5 @@
+alert('Use ESC to trigger the script!');
+
 if (!localStorage.blockedUsers) {
   localStorage.blockedUsers = JSON.stringify([])
 }
@@ -26,7 +28,7 @@ socket.on("rmes", (m)=>{
     if (getBlockedUsers().includes(user)) {
       msg.remove()
     }
-    })
+  })
 })
 
 document.addEventListener("keydown", function(event) {
