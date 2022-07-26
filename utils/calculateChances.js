@@ -1,4 +1,4 @@
-alert('Script coded by zastix.\nFor more scripts, visit BlacketWare on Github.');
+alert('Script coded by zastix.\nFor more scripts, visit BlacketWare on Github.\n\nFor all the whiners out there, the math is RIGHT. It doesn\'t care of the total box rates added up.');
 window.open('https://github.com/BlacketWare/blacket-hacks');
 
 var wordCount = confirm('Is the element one word?\nOk = yes, Cancel = no');
