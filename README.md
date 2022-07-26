@@ -26,10 +26,9 @@
   <p><a href="https://BetastarUtils.github.io">BetastarUtils</a> - Betastar info site!
 
   <h2>Contact Us</h2>
-  <p><b>bware@zastix.xyz</b> - Email</p>
+  <p><b>VillainsRule</b> - Guilded - <b>BEST</b></p>
   <p><b>@notzastix</b> - Twitter/Github</p>
   <p><b>zastix#0001</b> - Discord</p>
-  <p><b>VillainsRule</b> - Guilded
     
   <h2>Contributors</h2>
   <p><b>@notzastix</b> - Main HACK maker!</p>
