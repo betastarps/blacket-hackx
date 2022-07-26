@@ -1,5 +1,7 @@
 alert('Script coded by zastix.\nFor more scripts, visit BlacketWare on Github.');
 window.open('https://github.com/BlacketWare/blacket-hacks');
+let ee = confirm('This script was made for devices with access to the console. Would you like the script made for school devices where Inspect is blocked?\nOk = Yes, Cancel = No');
+if (ee) { window.open('https://github.com/BlacketWare/blacket-hacks/blob/main/global/schooldevice/spamOpenCrates.js'); }
 
 var i = 0;
 var boxes = []
