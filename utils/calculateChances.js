@@ -3,17 +3,16 @@ window.open('https://github.com/BlacketWare/blacket-hacks');
 
 var wordCount = confirm('Is the element one word?\nOk = yes, Cancel = no');
 function thing() {
-    let amt = prompt('How many crates are you opening?');
-    let amount = prompt('How many are you aiming for?');
-    let chance = elementList[element]['chance'];
-    alert('Press OK to calculate');
-    let calculation = chance * amt;
+
 }
 if (wordCount) {
     try {
         let element = prompt('What element are you trying to get?').toLowerCase();
-        thing();
-        
+        let amt = prompt('How many crates are you opening?');
+        let amount = prompt('How many are you aiming for?');
+        let chance = elementList[element]['chance'];
+        alert('Press OK to calculate');
+        let calculation = chance * amt;
         alert('You have a ' + calculation + '% chance to get at least one ' + element + '. (Press OK to continue)')
         alert('You have a ' + (calculation / amount) + '% chance to get ' + amount + ' ' + element + '.')
     } catch (e) {
@@ -28,8 +27,11 @@ if (wordCount) {
     
     try {
         let element = twowordfin1st + splitfin;
-        thing();
-        
+        let amt = prompt('How many crates are you opening?');
+        let amount = prompt('How many are you aiming for?');
+        let chance = elementList[element]['chance'];
+        alert('Press OK to calculate');
+        let calculation = chance * amt;
         alert('You have a ' + calculation + '% chance to get at least one ' + twoword + '. (Press OK to continue)')
         alert('You have a ' + (calculation / amount) + '% chance to get ' + amount + ' ' + twoword + '.')
     } catch (e) {
