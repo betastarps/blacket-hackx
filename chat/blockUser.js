@@ -31,6 +31,15 @@ socket.on("rmes", (m)=>{
   })
 })
 
+socket.on('request', (user) => {
+  let sentuser = `${user}`;
+  if (getBlockedUsers().includes(sentuser)) {
+    console.log(sentuser + ' attempted to send a request but was blocked.');
+    $(".tradeRequest").remove();
+    socket.emit('decline');
+  }
+});
+
 document.addEventListener("keydown", function(event) {
     if (event.keyCode === 27) {
       var commandsForBlock = prompt('Enter a command:\nBlock - blocks a user\nList - views list of blocked users\nUnblock - unblock a user\n\nScript credit to qaiik, interactive system credit to VillainsRule.').toLowerCase();
