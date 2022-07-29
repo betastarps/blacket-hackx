@@ -1,4 +1,4 @@
-if (userData.perm > 2) {
+if (userData.perm > 4) {
   alert('Yay, you have the permissions level to run this!');
   async function elementToFile(e) {
     var out = await $.getJSON(
@@ -52,5 +52,5 @@ if (userData.perm > 2) {
     }
   });
 } else {
-  alert('Oops! This is for those with a role you don\'t have. Buy Epic in the Store to unlock this feature!\n\nRequired Perm Level: 3+\nCurrent Perm Level: ' + userData.perm);
+  alert('Oops! This is for those with a role you don\'t have. Buy Fabled in the Store to unlock this feature!\n\nRequired Perm Level: 5+\nCurrent Perm Level: ' + userData.perm);
 }
